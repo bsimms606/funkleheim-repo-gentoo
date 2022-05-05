@@ -5,6 +5,6 @@
     Linux kernel driver for Xbox One and Xbox Series X|S accessories
   </longdescription>
   <upstream>
-    <remote-id type="github">xone</remote-id>
+    <remote-id type="git">xone</remote-id>
   </upstream>
 </pkgmetadata>
