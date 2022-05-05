@@ -8,7 +8,7 @@
             <name>Brandon Simms</name>
             <email>bsimms606@gmail.com</email>
         </owner>
-        <source type="git">git://github.com/bsimms606/funkleheim-repo-gentoo.git</source>
+        <source type="git">https://github.com/bsimms606/funkleheim-repo-gentoo.git</source>
         <feed>https://github.com/bsimms606/funkleheim-repo-gentoo/commits/master.atom</feed>
   </repo>
 </repositories>
