@@ -22,7 +22,6 @@ KEYWORDS="~amd64"
 
 MODULE_NAMES="
 	xone-wired(kernel/drivers/input/joystick)
-	xone-dongle(kernel/drivers/input/joystick)
 	xone-gip-bus(kernel/drivers/input/joystick)
 	xone-gip-common(kernel/drivers/input/joystick)
 	xone-gip-gamepad(kernel/drivers/input/joystick)
@@ -55,5 +54,5 @@ src_install() {
 
 	einfo "Installing Microsoft binary firmware"
 	insinto /lib/firmware/
-	newins "${S}"/FW_ACC_00U.bin xow_dongle.bin
+	newins "${S}"/FW_ACC_00U.bin
 }
